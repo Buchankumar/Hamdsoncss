@@ -135,14 +135,45 @@ a{
   }
   .container{
     width: unset;
-    margin: 0px;
+    margin: 0 8%;
   }
     .container2{
-        font-size: 30px;
+        font-size: 50px;
+        text-align:center;
+    }
+    .box{
+        widht: 100%;
+        flex-direction:colum;
+        align-item:center;
+        margin-top: 5vh;
+    
+}
+    .second {
+        widht:55%;
+        height:210px;
     }
 }
-
-
+@media screen and(min-widht:280px) and (max-widht:450px){
+  body{
+      background-size:300% 100%;
+      background-repeat: repeat;
+      background-position: center top;
+  }
+    .container nav li{
+    display: block;
+    margin-right: unset;
+    }
+.container2{
+      text-align: center;
+}
+    .container2 button{
+     font-size: 12px;
+        margin-left: 100px;
+        border-radius: 15px;
+        height: 30px;
+        widht: 80px;
+    }
+}
 
 
 
